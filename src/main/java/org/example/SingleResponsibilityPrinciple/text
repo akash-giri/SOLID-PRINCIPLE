@@ -1,0 +1,6 @@
+The Problem: A class tries to do too much, like calculating a price,
+saving to a database, and sending a notification.
+If the database schema changes, the notification logic might break.
+Domain - BankingAccount
+Violation Example - Account class calculates interest AND generates PDF statements.
+SRP solution - Account (Data), InterestCalculator (Logic), StatementGenerator (I/O).
