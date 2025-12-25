@@ -2,6 +2,8 @@ package org.example.fulfillmentEngine.service;
 
 import org.example.fulfillmentEngine.core.FulfillmentStrategy;
 import org.example.fulfillmentEngine.core.NotificationProvider;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 

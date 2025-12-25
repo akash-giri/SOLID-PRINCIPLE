@@ -1,6 +1,7 @@
 package org.example.fulfillmentEngine.domains.banking;
 
 import org.example.fulfillmentEngine.core.FulfillmentStrategy;
+import org.springframework.stereotype.Component;
 
 /**
  * [OCP] We added Banking fulfillment without touching E-commerce code.
